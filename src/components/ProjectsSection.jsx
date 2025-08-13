@@ -1,12 +1,15 @@
 import { ArrowRight, ExternalLink, Github } from 'lucide-react'
 import React from 'react'
+import image1 from '../../public/projects/1.jpg'
+import image2 from '../../public/projects/2.jpg'
+import image3 from '../../public/projects/3.jpg'
 
 const projects = [
     {
         id: 1,
         title: 'E-Commerce Website',
         description: 'Full E-commerce web application using React.js and Tailwincss, with dynamic product listing.',
-        image: '/public/projects/1.jpg',
+        image: [image1],
         tags: ['React', 'TailwindCSS', 'JavaScript'],
         demoUrl: 'https://e-commerce-react2.vercel.app/',
         githubUrl: 'https://github.com/m7md3baset74/e-commerce-react2',
@@ -16,7 +19,7 @@ const projects = [
         id: 2,
         title: 'Note App',
         description: 'A simple note-taking app with a different design that allows users to create, edit, and delete notes.',
-        image: '/public/projects/2.jpg',
+        image: [image2],
         tags: ['React', 'TailwindCSS', 'JavaScript'],
         demoUrl: 'https://note-app-mu-dusky.vercel.app/',
         githubUrl: 'https://github.com/m7md3baset74/NoteApp',
@@ -26,7 +29,7 @@ const projects = [
         id: 3,
         title: 'Zain Construction Company',
         description: 'A professional website for Zain Construction Company, showcasing their projects and services.',
-        image: '/public/projects/3.jpg',
+        image: [image3],
         tags: ['Next.js', 'TailwindCSS', 'JavaScript'],
         demoUrl: 'https://zain-task.vercel.app/',
         githubUrl: 'https://github.com/m7md3baset74/ZainTask',

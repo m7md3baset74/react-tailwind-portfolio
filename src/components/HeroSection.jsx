@@ -21,7 +21,7 @@ export default function HeroSection() {
         </div>
     </div>
 
-    <div className='absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-center animate-bounce'>
+    <div className='absolute bottom-16 left-1/2 transform -translate-x-1/2 flex flex-col items-center justify-center animate-bounce'>
         <span className='text-sm text-muted-foreground'>Scroll</span>
         <ArrowDown className='h-5 text-primary'/>
     </div>
