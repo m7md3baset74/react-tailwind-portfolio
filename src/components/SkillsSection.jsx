@@ -5,7 +5,7 @@ const skills = [{name: 'HTML/CSS/Bootstrap' , level: 95 , category: 'frontend'},
     {name: 'React' , level: 90 , category: 'frontend'},
     {name: 'TypeScript' , level: 85 , category: 'frontend'},
     {name: 'TailwindCss/Sass' , level: 90 , category: 'frontend'},
-    {name: 'Next.js' , level: 85 , category: 'frontend'},
+    {name: 'Next.js' , level: 90 , category: 'frontend'},
 
     // Tools
     {name: 'Git/Github' , level: 90 , category: 'tools'},
@@ -46,7 +46,7 @@ export default function SkillsSection() {
                     <div className='text-left mb-4 '>
                         <h3 className='font-semibold text-lg'>{skill.name} </h3>
                     </div>
-                    <div className='w-full bg-secondary/50 rounded-full h-2 overflow-hidden'>
+                    <div className='w-full bg-secondary/50 rounded-full h-2 overflow-hidden animate-bounce'>
                     <div className='bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]' 
                     style={{width: `${skill.level}%`}}/>
 

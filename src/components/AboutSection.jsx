@@ -1,5 +1,5 @@
 import React from 'react'
-import myCV from '../../public/MOHAMED_ABDELBASET.pdf'
+import myCV from '../../public/Mohamed_Abdelbaset_CV.pdf'
 import { Briefcase, Code, User } from 'lucide-react'
 
 export default function AboutSection() {
@@ -13,7 +13,7 @@ export default function AboutSection() {
                 <h3 className='text-2xl font-semibold'>Professional frontend developer specializing in building catchy and responsive websites.
                 </h3>
 
-                <p className='text-muted-foreground '>I have one year of experience in Frontend development, during which I worked on multiple 
+                <p className='text-muted-foreground '>I have more than one year of experience in Frontend development, during which I worked on multiple 
                     diverse projects using modern technologies. I also collaborated closely with team members,
                      contributing effectively to shared goals and delivering high-quality results.
                 </p>
@@ -44,7 +44,7 @@ export default function AboutSection() {
                         </div>
                         <div className='text-left'>
                             <h4 className='font-semibold text-lg'>React Developer</h4>
-                            <p className='text-muted-foreground'>Developed several web projects using React.js, including a full E-commerce website and a Note-taking application.</p>
+                            <p className='text-muted-foreground'>Developed several web projects using React.js and Next.js, including a full E-commerce website and Contributed to AutoMechanic’s official platform, implementing scalable and maintainable solutions.</p>
                         </div>
                     </div>
                 </div>
