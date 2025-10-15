@@ -3,6 +3,9 @@ import React from 'react'
 import image1 from '../../public/projects/1.jpg'
 import image2 from '../../public/projects/2.jpg'
 import image3 from '../../public/projects/3.jpg'
+import image4 from '../../public/projects/4.png'
+import image5 from '../../public/projects/5.png'
+import image6 from '../../public/projects/6.png'
 
 const projects = [
     {
@@ -10,7 +13,7 @@ const projects = [
         title: 'E-Commerce Website',
         description: 'Full E-commerce web application using React.js and Tailwincss, with dynamic product listing.',
         image: [image1],
-        tags: ['React', 'TailwindCSS', 'JavaScript'],
+        tags: ['React.js', 'TailwindCSS', 'JavaScript'],
         demoUrl: 'https://e-commerce-react2.vercel.app/',
         githubUrl: 'https://github.com/m7md3baset74/e-commerce-react2',
     },
@@ -20,7 +23,7 @@ const projects = [
         title: 'Note App',
         description: 'A simple note-taking app with a different design that allows users to create, edit, and delete notes.',
         image: [image2],
-        tags: ['React', 'TailwindCSS', 'JavaScript'],
+        tags: ['React.js', 'TailwindCSS', 'JavaScript'],
         demoUrl: 'https://note-app-mu-dusky.vercel.app/',
         githubUrl: 'https://github.com/m7md3baset74/NoteApp',
     },
@@ -34,6 +37,37 @@ const projects = [
         demoUrl: 'https://zain-task.vercel.app/',
         githubUrl: 'https://github.com/m7md3baset74/ZainTask',
     },
+
+    {
+        id: 4,
+        title: 'Inventory Management',
+        description: 'Full-stack inventory management app with secure auth and responsive dashboard.',
+        image: [image4],
+        tags: ['Next.js', 'TypeScript', 'Prisma', 'postgreSQL', 'TailwindCSS'],
+        demoUrl: 'https://inventory-management-blue-rho.vercel.app/',
+        githubUrl: 'https://github.com/m7md3baset74/inventory-management',
+    },
+
+    {
+        id: 6,
+        title: '3Hand Dashboard',
+        description: 'Laravel web app It includes a dark mode, user management (add, edit, delete), and responsive design for all devices.',
+        image: [image6],
+        tags: ['Laravel', 'TailwindCSS', 'JavaScript', 'Blade', 'Vite integration'],
+        demoUrl: 'https://github.com/m7md3baset74/3Hand-Laravel',
+        githubUrl: 'https://github.com/m7md3baset74/3Hand-Laravel',
+    },
+
+    {
+        id: 5,
+        title: 'Product Catalog',
+        description: 'A responsive React web application that displays products fetched from a REST API, featuring a clean and modern UI, product details pages.',
+        image: [image5],
+        tags: ['React.js', 'TailwindCSS', 'JavaScript'],
+        demoUrl: 'https://product-catalog-react-beta.vercel.app/',
+        githubUrl: 'https://github.com/m7md3baset74/product-catalog-react',
+    },
+    
 ]
 
 export default function ProjectsSection() {
