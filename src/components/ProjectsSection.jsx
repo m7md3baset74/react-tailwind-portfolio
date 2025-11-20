@@ -7,8 +7,19 @@ import image4 from '../../public/projects/4.png'
 import image5 from '../../public/projects/5.png'
 import image6 from '../../public/projects/6.png'
 import image7 from '../../public/projects/7.png'
+import image8 from '../../public/projects/8.png'
 
 const projects = [
+    {
+        id: 7,
+        title: 'FitElite Gym Website',
+        description: 'A modern, responsive fitness website for FitElite, built to attract new customers and present services in a clean, professional.',
+        image: [image7],
+        tags: ['React.js', 'TailwindCSS', 'JavaScript'],
+        demoUrl: 'https://fitelite-gym.vercel.app/',
+        githubUrl: 'https://github.com/m7md3baset74/fitelite-gym',
+    },
+
     {
         id: 4,
         title: 'Inventory Management',
@@ -20,13 +31,13 @@ const projects = [
     },
 
     {
-        id: 7,
-        title: 'FitElite Gym Website',
-        description: 'A modern, responsive fitness website for FitElite, built to attract new customers and present services in a clean, professional.',
-        image: [image7],
-        tags: ['React.js', 'TailwindCSS', 'JavaScript'],
-        demoUrl: 'https://fitelite-gym.vercel.app/',
-        githubUrl: 'https://github.com/m7md3baset74/fitelite-gym',
+        id: 8,
+        title: 'Edge AI Landing Page',
+        description: 'Building a Beautiful, Modern Landing Page for Your AI SaaS.',
+        image: [image8],
+        tags: ['React.js', 'TailwindCSS', 'typeScript', 'Zustand'],
+        demoUrl: 'https://edge-ai-one.vercel.app/',
+        githubUrl: 'https://github.com/m7md3baset74/edge-ai',
     },
 
     {
