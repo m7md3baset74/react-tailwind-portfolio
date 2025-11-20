@@ -6,8 +6,29 @@ import image3 from '../../public/projects/3.jpg'
 import image4 from '../../public/projects/4.png'
 import image5 from '../../public/projects/5.png'
 import image6 from '../../public/projects/6.png'
+import image7 from '../../public/projects/7.png'
 
 const projects = [
+    {
+        id: 4,
+        title: 'Inventory Management',
+        description: 'Full-stack inventory management app with secure auth and responsive dashboard.',
+        image: [image4],
+        tags: ['Next.js', 'TypeScript', 'Prisma', 'postgreSQL', 'TailwindCSS'],
+        demoUrl: 'https://inventory-management-blue-rho.vercel.app/',
+        githubUrl: 'https://github.com/m7md3baset74/inventory-management',
+    },
+
+    {
+        id: 7,
+        title: 'FitElite Gym Website',
+        description: 'A modern, responsive fitness website for FitElite, built to attract new customers and present services in a clean, professional.',
+        image: [image7],
+        tags: ['React.js', 'TailwindCSS', 'JavaScript'],
+        demoUrl: 'https://fitelite-gym.vercel.app/',
+        githubUrl: 'https://github.com/m7md3baset74/fitelite-gym',
+    },
+
     {
         id: 1,
         title: 'E-Commerce Website',
@@ -17,7 +38,7 @@ const projects = [
         demoUrl: 'https://e-commerce-react2.vercel.app/',
         githubUrl: 'https://github.com/m7md3baset74/e-commerce-react2',
     },
-
+    
     {
         id: 2,
         title: 'Note App',
@@ -36,16 +57,6 @@ const projects = [
         tags: ['Next.js', 'TailwindCSS', 'JavaScript'],
         demoUrl: 'https://zain-task.vercel.app/',
         githubUrl: 'https://github.com/m7md3baset74/ZainTask',
-    },
-
-    {
-        id: 4,
-        title: 'Inventory Management',
-        description: 'Full-stack inventory management app with secure auth and responsive dashboard.',
-        image: [image4],
-        tags: ['Next.js', 'TypeScript', 'Prisma', 'postgreSQL', 'TailwindCSS'],
-        demoUrl: 'https://inventory-management-blue-rho.vercel.app/',
-        githubUrl: 'https://github.com/m7md3baset74/inventory-management',
     },
 
     {
@@ -77,7 +88,7 @@ export default function ProjectsSection() {
             <span className='text-primary'> Projects</span></h2>
         <p className='text-center text-muted-foreground mb-12 max-w-2xl mx-auto'>
             Here are some of my recent projects. Each project was carefully
-            crafted with attention to detail, performance, and user experience.
+            crafted with attention to detail, performance, and user experience.
         </p>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
