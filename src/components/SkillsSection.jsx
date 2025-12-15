@@ -1,4 +1,4 @@
-import React, { use, useState } from 'react'
+import React, {useState } from 'react'
 import { cn } from '../lip/utils';
 const skills = [{name: 'HTML/CSS/Bootstrap' , level: 95 , category: 'frontend'},
     {name: 'JaveScript' , level: 90 , category: 'frontend'},
@@ -6,10 +6,10 @@ const skills = [{name: 'HTML/CSS/Bootstrap' , level: 95 , category: 'frontend'},
     {name: 'TypeScript' , level: 85 , category: 'frontend'},
     {name: 'TailwindCss/Sass' , level: 90 , category: 'frontend'},
     {name: 'Next.js' , level: 90 , category: 'frontend'},
+    {name: 'Vue.js' , level: 80 , category: 'frontend'},
 
     // Tools
     {name: 'Git/Github' , level: 90 , category: 'tools'},
-    {name: 'Vs Code' , level: 95 , category: 'tools'},
     {name: 'Postman' , level: 95 , category: 'tools'},
 ];
 

@@ -8,6 +8,7 @@ import image5 from '../../public/projects/5.png'
 import image6 from '../../public/projects/6.png'
 import image7 from '../../public/projects/7.png'
 import image8 from '../../public/projects/8.png'
+import image9 from '../../public/projects/9.png'
 
 const projects = [
     {
@@ -38,6 +39,16 @@ const projects = [
         tags: ['React.js', 'TailwindCSS', 'typeScript', 'Zustand'],
         demoUrl: 'https://edge-ai-one.vercel.app/',
         githubUrl: 'https://github.com/m7md3baset74/edge-ai',
+    },
+
+    {
+        id: 9,
+        title: 'Task Manager',
+        description: 'A task management web application built with Vue 3, The app allows users to manage tasks, assign categories, edit tasks, mark as completed.',
+        image: [image9],
+        tags: ['Vue.js', 'TailwindCSS', 'JavaScript', 'Pinia'],
+        demoUrl: 'https://task-manager-vue-js-three.vercel.app/',
+        githubUrl: 'https://github.com/m7md3baset74/task-manager-vue.js',
     },
 
     {

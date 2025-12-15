@@ -1,16 +1,15 @@
-import React, { useEffect, useState } from 'react'
-import { href } from 'react-router-dom'
-import { cn } from '../lip/utils';
-import { Menu, X } from 'lucide-react';
+import React, { useEffect, useState } from "react";
+import { href } from "react-router-dom";
+import { cn } from "../lip/utils";
+import { Menu, X } from "lucide-react";
 
 const navItems = [
-    { name: 'Home', href: '#hero'},
-    { name: 'About', href: '#about'},
-    { name: 'Skills', href: '#skills'},
-    { name: 'Projects', href: '#projects'},
-    { name: 'Contact', href: '#contact'},
+  { name: "Home", href: "#hero" },
+  { name: "About", href: "#about" },
+  { name: "Skills", href: "#skills" },
+  { name: "Projects", href: "#projects" },
+  { name: "Contact", href: "#contact" },
 ];
-
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,7 +26,9 @@ export default function Navbar() {
   // اقفل سكرول البودي أثناء فتح المينيو
   useEffect(() => {
     document.body.style.overflow = isMenuOpen ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [isMenuOpen]);
 
   return (
@@ -36,15 +37,19 @@ export default function Navbar() {
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
           // لما المينيو مفتوحة أو الصفحة متسحوِلة: خلي فيه BG ثابتة
-          (isScrolled || isMenuOpen)
+          isScrolled || isMenuOpen
             ? "py-3 bg-background/80 backdrop-blur-md shadow-xs"
             : "py-5"
         )}
       >
         <div className="container flex items-center justify-between">
-          <a className="text-xl font-bold text-primary flex items-center" href="#hero">
+          <a
+            className="text-xl font-bold text-primary flex items-center"
+            href="#hero"
+          >
             <span className="relative z-10">
-              <span className="text-glow text-foreground">M.Abdelbaset</span> Portfolio
+              <span className="text-glow text-foreground">M.Abdelbaset</span>{" "}
+              Portfolio
             </span>
           </a>
 
@@ -71,14 +76,15 @@ export default function Navbar() {
           </button>
         </div>
       </nav>
-
       {/* Mobile Menu Overlay (خارج الـ container وبـ z-index أعلى) */}
       <div
         className={cn(
           "fixed inset-0 md:hidden flex flex-col items-center justify-center",
           "bg-background/75 backdrop-blur-md z-[999]",
           "transition-opacity duration-300",
-          isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+          isMenuOpen
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
         )}
       >
         {/* زرار إغلاق واضح فوق المينيو */}
@@ -103,7 +109,6 @@ export default function Navbar() {
           ))}
         </div>
       </div>
-    </>
-  );
+    </>
+  );
 }
-
