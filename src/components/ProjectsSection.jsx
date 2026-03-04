@@ -9,8 +9,19 @@ import image6 from '../../public/projects/6.png'
 import image7 from '../../public/projects/7.png'
 import image8 from '../../public/projects/8.png'
 import image9 from '../../public/projects/9.png'
+import image10 from '../../public/projects/10.jpg'
 
 const projects = [
+    {
+        id: 10,
+        title: 'Online Fitness Coach',
+        description: 'Delivered a bilingual (Ar/En) Online Fitness Coach platform as a freelance project, featuring a live custom domain and optimized SEO for high performance and search visibility.',
+        image: [image10],
+        tags: ['Next.js', 'TailwindCSS', 'TypeScript'],
+        demoUrl: 'https://humaidiomar.com',
+        githubUrl: 'https://humaidiomar.com',
+    },
+
     {
         id: 7,
         title: 'FitElite Gym Website',
