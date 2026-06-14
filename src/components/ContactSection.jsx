@@ -92,7 +92,7 @@ export default function ContactSection() {
         <span className='text-primary'> Touch</span></h2>
         <p className='text-center text-muted-foreground mb-12 max-w-2xl mx-auto'>
             Have a job opportunity or project in mind and want to collaborate? Feel to reach out.
-            I'm always open to discussing new opportunities.
+            I'm always open to discussing new opportunities.
         </p>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
             <div className='space-y-8'>

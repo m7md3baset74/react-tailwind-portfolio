@@ -1,5 +1,5 @@
 import React from 'react'
-import myCV from '../../public/Mohamed_Abdelbaset_CV.pdf'
+import myCV from '../../public/Mohamed_Abdelbaset_CV_.pdf'
 import { Briefcase, Code, User } from 'lucide-react'
 
 export default function AboutSection() {
@@ -10,12 +10,12 @@ export default function AboutSection() {
         </h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
             <div className='space-y-6'>
-                <h3 className='text-2xl font-semibold'>Professional frontend developer specializing in building catchy and responsive websites.
+                <h3 className='text-2xl font-semibold'>Professional frontend developer specializing in building catchy and responsive websites.
                 </h3>
 
                 <p className='text-muted-foreground '>I have more than one year of experience in Frontend development, during which I worked on multiple 
                     diverse projects using modern technologies. I also collaborated closely with team members,
-                     contributing effectively to shared goals and delivering high-quality results.
+                     contributing effectively to shared goals and delivering high-quality results.
                 </p>
 
                 <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
@@ -33,7 +33,7 @@ export default function AboutSection() {
                         </div>
                         <div className='text-left'>
                             <h4 className='font-semibold text-lg'>Web Development</h4>
-                            <p className='text-muted-foreground'>Creating responsive websites and web applications with modern frameworks.</p>
+                            <p className='text-muted-foreground'>Creating responsive websites and web applications with modern frameworks.</p>
                         </div>
                     </div>
                 </div>

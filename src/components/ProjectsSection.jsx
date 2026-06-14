@@ -10,14 +10,34 @@ import image7 from '../../public/projects/7.png'
 import image8 from '../../public/projects/8.png'
 import image9 from '../../public/projects/9.png'
 import image10 from '../../public/projects/10.jpg'
+import image11 from '../../public/projects/11.png'
+import image12 from '../../public/projects/12.png'
 
 const projects = [
+    {
+        id: 12,
+        title: 'Kayan Avenue Properties',
+        description: 'Developed a bilingual (EN/AR) luxury real estate website with RTL/LTR support, animations, email integration, and full production deployment via Vercel.',
+        image: [image12],
+        tags: ['Next.js', 'TailwindCSS', 'TypeScript', 'Framer Motion', 'Resend Email API'],
+        demoUrl: 'https://m5-coinshop.com/order/885aecea',
+        githubUrl: 'https://m5-coinshop.com/order/885aecea',
+    },
+    {
+        id: 11,
+        title: 'Real-Time Order Tracker',
+        description: 'High-traffic dashboard handling thousands of daily requests via debounced API calls, Upstash Redis caching, and optimised re- render control.',
+        image: [image11],
+        tags: ['Next.js', 'TailwindCSS', 'TypeScript', 'Upstash Redis', 'REST APIs'],
+        demoUrl: 'https://m5-coinshop.com/order/885aecea',
+        githubUrl: 'https://m5-coinshop.com/order/885aecea',
+    },
     {
         id: 10,
         title: 'Online Fitness Coach',
         description: 'Delivered a bilingual (Ar/En) Online Fitness Coach platform as a freelance project, featuring a live custom domain and optimized SEO for high performance and search visibility.',
         image: [image10],
-        tags: ['Next.js', 'TailwindCSS', 'TypeScript'],
+        tags: ['Next.js', 'TailwindCSS', 'TypeScript', 'SEO Optimization', 'Framer Motion'],
         demoUrl: 'https://humaidiomar.com',
         githubUrl: 'https://humaidiomar.com',
     },
