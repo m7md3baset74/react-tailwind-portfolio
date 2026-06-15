@@ -20,8 +20,8 @@ const projects = [
         description: 'Developed a bilingual (EN/AR) luxury real estate website with RTL/LTR support, animations, email integration, and full production deployment via Vercel.',
         image: [image12],
         tags: ['Next.js', 'TailwindCSS', 'TypeScript', 'Framer Motion', 'Resend Email API'],
-        demoUrl: 'https://m5-coinshop.com/order/885aecea',
-        githubUrl: 'https://m5-coinshop.com/order/885aecea',
+        demoUrl: 'https://www.kayanavenue.com/',
+        githubUrl: 'https://www.kayanavenue.com/',
     },
     {
         id: 11,
